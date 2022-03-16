@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.head-img{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #9A9A9A;
+    margin-bottom: 53px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 37px 0;
+    background: linear-gradient(180deg, #E0E2E6 0%, #FFFFFF 100%);
+    box-shadow: 2.04108 e-16px 3.33333px 6.66667px rgba(49, 50, 51, 0.121), inset -4.80787 e-17px -0.785185px 0.785185px #B3B4B5, inset 4.80787 e-17px 0.785185px 0.785185px #D5D1D1;
+    border-radius: 15px;
+    margin-bottom: 9px;
+}
+
+.img.active {
+    background: linear-gradient(180deg, #30B3BB 0%, #BAFBFF 100%);
+}
+
+.gas {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+    background: #F7F9FD;
+    box-shadow: 4.08216 e-16px 6.66667px 13.3333px rgba(49, 50, 51, 0.1455), inset -1.02507 e-16px -1.67407px 1.67407px rgba(235, 237, 240, 0.3), inset 1.02507 e-16px 1.67407px 1.67407px #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 93px;
+}
+
+.type-gas {
+    padding: 5px 15px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+input::placeholder {
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    color: #C2C2C2;
+}
+
+.price {
+    border: none;
+    padding: 5px 8px;
+}
+
+.total-sum {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.total-label {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+.total {
+    border: 1px solid #AFACAC;
+    border-radius: 4px;
+    width: 252px;
+    height: 40px;
+    margin-bottom: 45px;
+}
+
+.bill {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
+
+.vat {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
