@@ -99,6 +99,7 @@ input::placeholder {
     width: 252px;
     height: 40px;
     margin-bottom: 45px;
+    position: relative;
 }
 
 .bill {
@@ -113,4 +114,18 @@ input::placeholder {
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 16px;
+}
+
+.btn{
+    width: 150px;
+    height: 43px;
+    border-radius: 4px;
+    background-color: #07c007;
+    color: white;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    left: 310px;
+    bottom: -10px
+
 }
