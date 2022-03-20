@@ -37,25 +37,25 @@ btn.addEventListener('click',()=>{
           alert('Заполните форму')
       }
       if (price[0].value !== '') {
-          petrol.textContent = `${typeGas[0].textContent}`
-          oneLiter.textContent = `${price[0].value}$`
-          liters.textContent = `${totalLiters.value}`
+          petrol.textContent = typeGas[0].textContent
+          oneLiter.textContent = price[0].value
+          liters.textContent = totalLiters.value
           vat.textContent = '5%'
           totalPrice.textContent = `${((totalLiters.value * price[0].value) + (totalLiters.value * price[0].value * 0.05))}$`
 
 
       } else if (price[1].value !== '') {
-          petrol.textContent = `${typeGas[1].textContent}`
-          oneLiter.textContent = `${price[1].value}$`
-          liters.textContent = `${totalLiters.value}`
+          petrol.textContent = typeGas[1].textContent
+          oneLiter.textContent = price[1].value
+          liters.textContent = totalLiters.value
           vat.textContent = '5%'
           totalPrice.textContent = `${((totalLiters.value * price[1].value) + (totalLiters.value * price[1].value * 0.05))}$`
 
 
       } else if (price[2].value !== '') {
-          petrol.textContent = `${typeGas[2].textContent}`
-          oneLiter.textContent = `${price[2].value}$`
-          liters.textContent = `${totalLiters.value}`
+          petrol.textContent = typeGas[2].textContent
+          oneLiter.textContent = price[2].value
+          liters.textContent = totalLiters.value
           vat.textContent = '5%'
           totalPrice.textContent = `${((totalLiters.value * price[2].value) + (totalLiters.value * price[2].value * 0.05))}$`
       }
